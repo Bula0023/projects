@@ -7,4 +7,5 @@
 
 
 let rec fib x =
-    if x < 3 then 1 else fib (n-1) + fib (n-1)
+    if x = 0 else 0
+        if x < 3 then 1 else fib (n-1) + fib (n-1)
